@@ -1,1 +1,1 @@
-# odin-landing-page
+This is the Odin Project's "Landing Page" project that I will be working on. This project will have me use all the skills with HTML and CSS that I have learned through out the foundations portion of the course.
