@@ -1,21 +1,24 @@
 body {
     font-family: Roboto;
     box-sizing: border-box;
-    
+    margin: 0 0;
+    padding: 0 0;
 }
+/*-----Header section-----------------------------*/
 header {
     background-color: #1F2937;
     color:#F9FAF8;
 }
 .logo {
-    border: solid white;
     font-size: 24px;
+    margin: 0;
 }
 .container {
-    border: solid red;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
     padding-top: 10px;
 }
 a {
@@ -26,6 +29,32 @@ a {
     display: flex;
     gap: 25px;
     margin-right: 25px;
+}
+/*-----Header section^--------------------------------*/
+h1 {
+    border: solid red;
+    font-size: 48px;
+    font-weight: 900;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section {
+    border: solid green;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.image {
+    border:solid orange;
 
-    
-}}
+}
+.twis {
+    border: solid purple;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0;
+}
