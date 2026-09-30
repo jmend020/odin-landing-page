@@ -44,6 +44,7 @@ h1 {
     padding-left: 97px;
     padding-right: 97px;
     padding-top: 20px;
+    justify-content: space-between;
 }
 .section-text {
     flex: 1;
@@ -71,3 +72,19 @@ button {
   cursor: pointer;
 }
 /*-------^header section2-------------*/
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+
+.container-two {
+    border: solid red;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
