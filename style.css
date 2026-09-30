@@ -30,31 +30,44 @@ a {
     gap: 25px;
     margin-right: 25px;
 }
-/*-----Header section^--------------------------------*/
+/*-----Header section1^ header section2 below--------------------------------*/
 h1 {
-    border: solid red;
     font-size: 48px;
     font-weight: 900;
-    display: flex;
-    flex-wrap: wrap;
+    margin: 0 0 8px;
+    line-height: 1.1;
 }
 .section {
-    border: solid green;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding-left: 97px;
+    padding-right: 97px;
+    padding-top: 20px;
+}
+.section-text {
+    flex: 1;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
-}
-.image {
-    border:solid orange;
 
 }
-.twis {
-    border: solid purple;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 0;
+.image {
+  flex: 1;                    
+  height: 200px;
+  background: #6b7280;
+  display: flex;               
+  align-items: center;
+  justify-content: center;
 }
+button {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+/*-------^header section2-------------*/
