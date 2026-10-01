@@ -20,6 +20,7 @@ header {
     margin-left: 100px;
     margin-right: 100px;
     padding-top: 10px;
+    line-height: 1.1;
 }
 a {
     text-decoration: none;
@@ -74,17 +75,117 @@ button {
 /*-------^header section2-------------*/
 
 h2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
+  text-align: center;
+  margin-top: 40px;
 }
-
-
 
 .container-two {
-    border: solid red;
-    display: flex;
-    justify-content: space-between;
-    
-
+  display: flex;
+  justify-content: center;   
+  gap: 36px;                 
+  margin-top: 40px;
 }
+
+.container-two-child {
+  width: 120px;             
+  margin: 0;                 
+  text-align: center;
+}
+
+.image-box {
+  width: 100%;
+  aspect-ratio: 1 / 1;       
+  border: 3px solid #3b82f6;
+  border-radius: 14px;
+  box-sizing: border-box;
+}
+
+.container-two-child figcaption {
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ---------- Quote band ---------- */
+.quote {
+  background-color: #e5e7ea;
+  padding: 80px 20px;
+  margin-top: 60px;
+}
+
+.quote blockquote {
+  max-width: 570px;       
+  margin: 0 auto;
+}
+
+.quote p {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 300;       
+  font-style: italic;
+  line-height: 1.1;
+  color: #374151;
+}
+
+.quote .author {
+  margin-top: 12px;
+  text-align: right;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+/* ---------- Call to action ---------- */
+.cta {
+  padding: 70px 20px;
+}
+
+.cta-box {
+  max-width: 725px;
+  margin: 0 auto;
+  padding: 35px 85px;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  color: white;
+
+  display: flex;                   
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text h3 {
+  margin: 0 0 4px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.cta-text p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.cta button {
+  padding: 8px 24px;
+  background: transparent;          
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-family: inherit;             
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.cpyrt {
+    background-color: #1F2937;
+    color:#F9FAF8;
+    text-align: center;
+    padding: 20px;
+    margin: 0 0;
+}
+
